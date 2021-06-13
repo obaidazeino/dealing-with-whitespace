@@ -14,14 +14,14 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: normal;
-  margin: 1rem 0rem 0rem;
+  margin: 1em 0em;
 }
 
 /* ----------- Top ----------- */
 
 article h1 {
   font-size: 1.5rem;
-  margin: 1rem 0rem 0rem;
+  margin: 1em 0em 0em;
 }
 
 article header {
@@ -31,7 +31,7 @@ article header {
 
 article header p {
   font-style: italic;
-  margin: 0rem 0rem 1rem;
+  margin: 0em 0em 1em;
 }
 
 /* ----------- body ----------- */
@@ -42,7 +42,17 @@ blockquote {
 
 article {
   border-bottom: 2px solid #999;
+  margin: 0em 0em 1em;
 }
 
 article p {
+  margin: 1em 0em;
+}
+
+article ol {
+  margin: 0em 0em 1em;
+}
+
+.quote {
+  margin: 0em 0em 1em;
 }
