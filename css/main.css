@@ -27,6 +27,7 @@ article h1 {
 article header {
   color: #555;
   border-bottom: 2px solid #999;
+  margin-bottom: 1.3rem;
 }
 
 article header p {
@@ -38,11 +39,12 @@ article header p {
 
 blockquote {
   color: #999;
+  margin-bottom: 2rem;
 }
 
 article {
   border-bottom: 2px solid #999;
-  margin: 0em 0em 1em;
+  margin: 0em 0em 1.5em;
 }
 
 article p {
@@ -55,4 +57,8 @@ article ol {
 
 .quote {
   margin: 0em 0em 1em;
+}
+
+blockquote p {
+  font-size: 1.1rem;
 }
