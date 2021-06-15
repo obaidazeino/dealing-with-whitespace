@@ -14,14 +14,14 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: normal;
-  margin: 1em 0em;
+  margin: 0;
 }
 
 /* ----------- Top ----------- */
 
 article h1 {
   font-size: 1.5rem;
-  margin: 1em 0em 0em;
+  margin-bottom: .1rem;
 }
 
 article header {
@@ -32,33 +32,40 @@ article header {
 
 article header p {
   font-style: italic;
-  margin: 0em 0em 1em;
+  margin-top: .1rem;
+  margin-bottom: 1rem;
 }
 
 /* ----------- body ----------- */
 
 blockquote {
   color: #999;
-  margin-bottom: 2rem;
+  margin-bottom: 1.3rem;
+  margin-top: 1.8rem;
 }
 
 article {
   border-bottom: 2px solid #999;
-  margin: 0em 0em 1.5em;
+  margin: 0 0 1.5em;
 }
 
 article p {
-  margin: 1em 0em;
+  font-weight: normal;
 }
 
 article ol {
-  margin: 0em 0em 1em;
+  font-weight: normal;
+  font-size: 1.09rem;
 }
 
 .quote {
-  margin: 0em 0em 1em;
+  font-weight: normal;
 }
 
 blockquote p {
-  font-size: 1.1rem;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1rem;
 }
